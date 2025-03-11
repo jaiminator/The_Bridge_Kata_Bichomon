@@ -1,16 +1,15 @@
 // EJERCICIO 1
-console.log(document.title);
-
-// EJERCICIO 2
 const titleGen1 = document.getElementById('gen-1');
 titleGen1.innerText = "Generasión 1 Pokimon";
 
-//EJERCICIO 3
+//EJERCICIO 2
 const gen1Box = document.querySelector('.infocard-list');
 gen1Box.style.backgroundColor = 'pink';
 
-//EJERCICIO 4
+//EJERCICIO 3
 console.log(document.URL);
+
+//EJERCICIO 4
 console.log(document.domain);
 
 //EJERCICIO 5
