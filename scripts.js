@@ -10,10 +10,11 @@ gen1Box.style.backgroundColor = 'pink';
 console.log(document.URL);
 
 //EJERCICIO 4
-console.log(document.domain);
+/* console.log(document.domain); */
+console.log(window.location.hostname);
 
 //EJERCICIO 5
-const imagesPokemon = document.querySelectorAll('.img-fixed.img-sprite');
+const imagesPokemon = document.querySelectorAll('img');
 console.log(imagesPokemon);
 
 //EJERCICIO 6
@@ -22,9 +23,9 @@ imagesPokemon.forEach((imgPokemon) => {
 }) 
 
 //EJERCICIO 7
-const pokemones = document.querySelectorAll('.infocard');
+const pokemons = document.querySelectorAll('.infocard');
 
-pokemones.forEach((flyPokemon) => {
+pokemons.forEach((flyPokemon) => {
     if(flyPokemon.innerHTML.includes('flying')) {
         flyPokemon.style.backgroundColor = 'lightgrey';
     }   
